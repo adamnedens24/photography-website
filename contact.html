@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Adam Nedens Photography </title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<div class = "navbar">
+		<a href = "index.html"><img src="golfhole.png" class="logo" alt = ""> 
+			</a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+	</div>
+		<main>
+				<h2> Contact Me </h2><br>
+				<p> Have any questions for me, regarding photography, tips, and my schedule? <br><br>
+					Feel free to fill out this form, and I will respond to your question(s) as quickly as possible! <br><br>*Work in Progress!*<br><br><br>
+				</p>
+		<div class = "form">
+			<form method="post" action=". http://www.randyconnolly.com/tests/process.php">
+				<label for="myName">*Name:</label>
+				<input type="text" name="My Name" id="myName" required>
+				<label for="myEmail">*Email:</label>
+				<input type="email" name="My Email" id="myEmail" required>
+				<label for="myQuestions">*Questions or Comments:</label>
+				<textarea name="Questions or Comments " id="myQuestions" rows="2" cols="20" required></textarea>
+				<input type="submit" value="Submit" id="mySubmit">
+			</form>
+		</div>
+		<br><br><br>
+	<p> You may also contact me through direct message on Instagram. The link is below.</p>
+			
+	<!--The following code comes from https://ionic.io/ionicons/usage#logo-instagram .
+			The goal was to add a link to a social media site along with an icon.-->
+	<a class = "icon" href= "https://www.instagram.com/adamnedensphotos/" target = "_blank">
+		<ion-icon name="logo-instagram"></ion-icon>
+		<ion-icon size="large"></ion-icon>
+	</a>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	</main>
+</body>
+</html>
